@@ -24,7 +24,7 @@ export const API_POST = (url, body) =>
       });
   });
 
-export const API_DELETE = (url, body) =>
+export const API_PUT = (url, body) =>
   new Promise((resolve, reject) => {
     axios
       .put(url, body)
